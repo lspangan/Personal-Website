@@ -1,0 +1,38 @@
+root { 
+    display: block;
+}
+.centered {
+    text-align: center;
+}
+.sansSerif{
+    font-family: inherit;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+a {
+    display: block;
+    width: 60px;
+    color: #000;
+    background-color: white;
+    text-align: center;
+}
+div#banner{
+    color: white;
+    background-color: black;
+    border-bottom: 2px solid #000;
+    border-bottom-color: slategrey;
+}
+div#banner h1
+{
+margin: 0;
+padding: .3em 0 .3em .5em;
+font-size: 2.2em;
+font-weight: normal;
+}
